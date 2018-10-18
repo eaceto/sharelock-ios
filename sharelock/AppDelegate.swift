@@ -18,8 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = UIWindow(frame: UIScreen.main.bounds)
         
         let mainViewController = MainViewController.init(nibName: "MainViewController", bundle: nil)
-        self.rootViewController = UINavigationController.init(rootViewController: mainViewController)
+        self.rootViewController = InteractivePopNavigationController.init(rootViewController: mainViewController)
         self.rootViewController?.isNavigationBarHidden = true
+        self.rootViewController?.interactivePopGestureRecognizer?.isEnabled = true
         
         self.window?.rootViewController = rootViewController
         self.window?.makeKeyAndVisible()

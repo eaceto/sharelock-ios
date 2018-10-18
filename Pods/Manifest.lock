@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (4.7.3)
+  - WSTagsField (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - WSTagsField
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - WSTagsField
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  WSTagsField: 3a10b75c304999ead6fb2251ddc2844266e7d9f2
+
+PODFILE CHECKSUM: 985a4e139872d05284ab37938f8a0e68614a0f6a
+
+COCOAPODS: 1.5.3

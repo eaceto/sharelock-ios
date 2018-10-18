@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F09E90821796A6C007143AB /* baseline_lock_black_48pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F09E8FF21796A6B007143AB /* baseline_lock_black_48pt@2x.png */; };
+		3F09E90921796A6C007143AB /* baseline_account_circle_black_48pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F09E90021796A6C007143AB /* baseline_account_circle_black_48pt.png */; };
+		3F09E90A21796A6C007143AB /* baseline_attach_file_black_48pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F09E90121796A6C007143AB /* baseline_attach_file_black_48pt@2x.png */; };
+		3F09E90B21796A6C007143AB /* baseline_attach_file_black_48pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F09E90221796A6C007143AB /* baseline_attach_file_black_48pt.png */; };
+		3F09E90C21796A6C007143AB /* baseline_lock_black_48pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F09E90321796A6C007143AB /* baseline_lock_black_48pt@3x.png */; };
+		3F09E90D21796A6C007143AB /* baseline_lock_black_48pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F09E90421796A6C007143AB /* baseline_lock_black_48pt.png */; };
+		3F09E90E21796A6C007143AB /* baseline_attach_file_black_48pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F09E90521796A6C007143AB /* baseline_attach_file_black_48pt@3x.png */; };
+		3F09E90F21796A6C007143AB /* baseline_account_circle_black_48pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F09E90621796A6C007143AB /* baseline_account_circle_black_48pt@2x.png */; };
+		3F09E91021796A6C007143AB /* baseline_account_circle_black_48pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F09E90721796A6C007143AB /* baseline_account_circle_black_48pt@3x.png */; };
+		3F09E91421796ACC007143AB /* baseline_insert_drive_file_black_48pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F09E91121796ACB007143AB /* baseline_insert_drive_file_black_48pt@3x.png */; };
+		3F09E91521796ACC007143AB /* baseline_insert_drive_file_black_48pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F09E91221796ACB007143AB /* baseline_insert_drive_file_black_48pt.png */; };
+		3F09E91621796ACC007143AB /* baseline_insert_drive_file_black_48pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F09E91321796ACC007143AB /* baseline_insert_drive_file_black_48pt@2x.png */; };
+		3F09E91A217975C7007143AB /* WhoToShareWithViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F09E918217975C7007143AB /* WhoToShareWithViewController.swift */; };
+		3F09E91B217975C7007143AB /* WhoToShareWithViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F09E919217975C7007143AB /* WhoToShareWithViewController.xib */; };
+		3F09E91D2179788F007143AB /* UINavigationController+InteractivePop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F09E91C2179788F007143AB /* UINavigationController+InteractivePop.swift */; };
+		3FA7D1312179E9FA00551490 /* LinkAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7D1302179E9FA00551490 /* LinkAPIClient.swift */; };
+		3FA7D1342179EAE100551490 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7D1332179EAE100551490 /* Secret.swift */; };
+		3FA7D1392179F53600551490 /* GenerateLinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7D1372179F53600551490 /* GenerateLinkViewController.swift */; };
+		3FA7D13A2179F53600551490 /* GenerateLinkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FA7D1382179F53600551490 /* GenerateLinkViewController.xib */; };
+		3FA7D13E217D01C700551490 /* baseline_lock_white_48pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA7D13B217D01C700551490 /* baseline_lock_white_48pt@2x.png */; };
+		3FA7D13F217D01C700551490 /* baseline_lock_white_48pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA7D13C217D01C700551490 /* baseline_lock_white_48pt.png */; };
+		3FA7D140217D01C700551490 /* baseline_lock_white_48pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA7D13D217D01C700551490 /* baseline_lock_white_48pt@3x.png */; };
 		3FCE22712179161F007B070F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE22702179161F007B070F /* AppDelegate.swift */; };
 		3FCE22732179161F007B070F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE22722179161F007B070F /* MainViewController.swift */; };
 		3FCE227821791621007B070F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCE227721791621007B070F /* Assets.xcassets */; };
@@ -14,9 +36,33 @@
 		3FCE228321791768007B070F /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FCE228221791768007B070F /* MainViewController.xib */; };
 		3FCE228621791BCA007B070F /* sharelockIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FCE228421791BCA007B070F /* sharelockIcon.png */; };
 		3FCE228721791BCA007B070F /* appIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FCE228521791BCA007B070F /* appIcon.png */; };
+		3FCE228B2179200D007B070F /* UIView+AnimateTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE228A2179200D007B070F /* UIView+AnimateTo.swift */; };
+		DD9FA853384C8308EA3C76A9 /* Pods_sharelock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B356C39F23F9F581008895 /* Pods_sharelock.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F09E8FF21796A6B007143AB /* baseline_lock_black_48pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseline_lock_black_48pt@2x.png"; sourceTree = "<group>"; };
+		3F09E90021796A6C007143AB /* baseline_account_circle_black_48pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline_account_circle_black_48pt.png; sourceTree = "<group>"; };
+		3F09E90121796A6C007143AB /* baseline_attach_file_black_48pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseline_attach_file_black_48pt@2x.png"; sourceTree = "<group>"; };
+		3F09E90221796A6C007143AB /* baseline_attach_file_black_48pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline_attach_file_black_48pt.png; sourceTree = "<group>"; };
+		3F09E90321796A6C007143AB /* baseline_lock_black_48pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseline_lock_black_48pt@3x.png"; sourceTree = "<group>"; };
+		3F09E90421796A6C007143AB /* baseline_lock_black_48pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline_lock_black_48pt.png; sourceTree = "<group>"; };
+		3F09E90521796A6C007143AB /* baseline_attach_file_black_48pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseline_attach_file_black_48pt@3x.png"; sourceTree = "<group>"; };
+		3F09E90621796A6C007143AB /* baseline_account_circle_black_48pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseline_account_circle_black_48pt@2x.png"; sourceTree = "<group>"; };
+		3F09E90721796A6C007143AB /* baseline_account_circle_black_48pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseline_account_circle_black_48pt@3x.png"; sourceTree = "<group>"; };
+		3F09E91121796ACB007143AB /* baseline_insert_drive_file_black_48pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseline_insert_drive_file_black_48pt@3x.png"; sourceTree = "<group>"; };
+		3F09E91221796ACB007143AB /* baseline_insert_drive_file_black_48pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline_insert_drive_file_black_48pt.png; sourceTree = "<group>"; };
+		3F09E91321796ACC007143AB /* baseline_insert_drive_file_black_48pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseline_insert_drive_file_black_48pt@2x.png"; sourceTree = "<group>"; };
+		3F09E918217975C7007143AB /* WhoToShareWithViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhoToShareWithViewController.swift; sourceTree = "<group>"; };
+		3F09E919217975C7007143AB /* WhoToShareWithViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WhoToShareWithViewController.xib; sourceTree = "<group>"; };
+		3F09E91C2179788F007143AB /* UINavigationController+InteractivePop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+InteractivePop.swift"; sourceTree = "<group>"; };
+		3FA7D1302179E9FA00551490 /* LinkAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkAPIClient.swift; sourceTree = "<group>"; };
+		3FA7D1332179EAE100551490 /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
+		3FA7D1372179F53600551490 /* GenerateLinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateLinkViewController.swift; sourceTree = "<group>"; };
+		3FA7D1382179F53600551490 /* GenerateLinkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GenerateLinkViewController.xib; sourceTree = "<group>"; };
+		3FA7D13B217D01C700551490 /* baseline_lock_white_48pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseline_lock_white_48pt@2x.png"; sourceTree = "<group>"; };
+		3FA7D13C217D01C700551490 /* baseline_lock_white_48pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline_lock_white_48pt.png; sourceTree = "<group>"; };
+		3FA7D13D217D01C700551490 /* baseline_lock_white_48pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseline_lock_white_48pt@3x.png"; sourceTree = "<group>"; };
 		3FCE226D2179161F007B070F /* sharelock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sharelock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCE22702179161F007B070F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FCE22722179161F007B070F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +72,10 @@
 		3FCE228221791768007B070F /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		3FCE228421791BCA007B070F /* sharelockIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sharelockIcon.png; path = sharelock/images/sharelockIcon.png; sourceTree = SOURCE_ROOT; };
 		3FCE228521791BCA007B070F /* appIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appIcon.png; path = sharelock/images/appIcon.png; sourceTree = SOURCE_ROOT; };
+		3FCE228A2179200D007B070F /* UIView+AnimateTo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AnimateTo.swift"; sourceTree = "<group>"; };
+		45E9A8AA230B75DADF1A94AC /* Pods-sharelock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sharelock.release.xcconfig"; path = "Pods/Target Support Files/Pods-sharelock/Pods-sharelock.release.xcconfig"; sourceTree = "<group>"; };
+		85C980C9B68FDC851685ABB3 /* Pods-sharelock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sharelock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sharelock/Pods-sharelock.debug.xcconfig"; sourceTree = "<group>"; };
+		D5B356C39F23F9F581008895 /* Pods_sharelock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sharelock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +83,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD9FA853384C8308EA3C76A9 /* Pods_sharelock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F09E8FE217968EC007143AB /* material-icons */ = {
+			isa = PBXGroup;
+			children = (
+				3F09E91221796ACB007143AB /* baseline_insert_drive_file_black_48pt.png */,
+				3F09E91321796ACC007143AB /* baseline_insert_drive_file_black_48pt@2x.png */,
+				3F09E91121796ACB007143AB /* baseline_insert_drive_file_black_48pt@3x.png */,
+				3F09E90021796A6C007143AB /* baseline_account_circle_black_48pt.png */,
+				3F09E90621796A6C007143AB /* baseline_account_circle_black_48pt@2x.png */,
+				3F09E90721796A6C007143AB /* baseline_account_circle_black_48pt@3x.png */,
+				3F09E90221796A6C007143AB /* baseline_attach_file_black_48pt.png */,
+				3F09E90121796A6C007143AB /* baseline_attach_file_black_48pt@2x.png */,
+				3F09E90521796A6C007143AB /* baseline_attach_file_black_48pt@3x.png */,
+				3F09E90421796A6C007143AB /* baseline_lock_black_48pt.png */,
+				3F09E8FF21796A6B007143AB /* baseline_lock_black_48pt@2x.png */,
+				3F09E90321796A6C007143AB /* baseline_lock_black_48pt@3x.png */,
+				3FA7D13C217D01C700551490 /* baseline_lock_white_48pt.png */,
+				3FA7D13B217D01C700551490 /* baseline_lock_white_48pt@2x.png */,
+				3FA7D13D217D01C700551490 /* baseline_lock_white_48pt@3x.png */,
+			);
+			path = "material-icons";
+			sourceTree = "<group>";
+		};
+		3F09E91721797572007143AB /* view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FCE22722179161F007B070F /* MainViewController.swift */,
+				3FCE228221791768007B070F /* MainViewController.xib */,
+				3F09E918217975C7007143AB /* WhoToShareWithViewController.swift */,
+				3F09E919217975C7007143AB /* WhoToShareWithViewController.xib */,
+				3FA7D1372179F53600551490 /* GenerateLinkViewController.swift */,
+				3FA7D1382179F53600551490 /* GenerateLinkViewController.xib */,
+			);
+			path = "view controllers";
+			sourceTree = "<group>";
+		};
+		3FA7D12F2179E9EC00551490 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				3FA7D1302179E9FA00551490 /* LinkAPIClient.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		3FA7D1322179EAD300551490 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3FA7D1332179EAE100551490 /* Secret.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		3FCE22642179161F007B070F = {
 			isa = PBXGroup;
 			children = (
 				3FCE226F2179161F007B070F /* sharelock */,
 				3FCE226E2179161F007B070F /* Products */,
+				8B5D52C67D933906F9178098 /* Pods */,
+				E6585CCF1175B77E489E4C3F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +162,13 @@
 		3FCE226F2179161F007B070F /* sharelock */ = {
 			isa = PBXGroup;
 			children = (
+				3FA7D1322179EAD300551490 /* model */,
+				3FA7D12F2179E9EC00551490 /* api */,
+				3F09E91721797572007143AB /* view controllers */,
+				3F09E8FE217968EC007143AB /* material-icons */,
+				3FCE228921791FFD007B070F /* extensions */,
 				3FCE228821791BCD007B070F /* images */,
 				3FCE22702179161F007B070F /* AppDelegate.swift */,
-				3FCE22722179161F007B070F /* MainViewController.swift */,
-				3FCE228221791768007B070F /* MainViewController.xib */,
 				3FCE227721791621007B070F /* Assets.xcassets */,
 				3FCE227921791621007B070F /* LaunchScreen.storyboard */,
 				3FCE227C21791621007B070F /* Info.plist */,
@@ -78,6 +185,32 @@
 			path = images;
 			sourceTree = "<group>";
 		};
+		3FCE228921791FFD007B070F /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3FCE228A2179200D007B070F /* UIView+AnimateTo.swift */,
+				3F09E91C2179788F007143AB /* UINavigationController+InteractivePop.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		8B5D52C67D933906F9178098 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85C980C9B68FDC851685ABB3 /* Pods-sharelock.debug.xcconfig */,
+				45E9A8AA230B75DADF1A94AC /* Pods-sharelock.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E6585CCF1175B77E489E4C3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5B356C39F23F9F581008895 /* Pods_sharelock.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FCE227F21791621007B070F /* Build configuration list for PBXNativeTarget "sharelock" */;
 			buildPhases = (
+				16677A399E5BC09DF16E93EC /* [CP] Check Pods Manifest.lock */,
 				3FCE22692179161F007B070F /* Sources */,
 				3FCE226A2179161F007B070F /* Frameworks */,
 				3FCE226B2179161F007B070F /* Resources */,
+				11E248DEC35BAFDF09078CC8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,22 +271,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F09E91B217975C7007143AB /* WhoToShareWithViewController.xib in Resources */,
+				3F09E90D21796A6C007143AB /* baseline_lock_black_48pt.png in Resources */,
+				3F09E90B21796A6C007143AB /* baseline_attach_file_black_48pt.png in Resources */,
+				3FA7D13F217D01C700551490 /* baseline_lock_white_48pt.png in Resources */,
+				3F09E90921796A6C007143AB /* baseline_account_circle_black_48pt.png in Resources */,
+				3F09E90821796A6C007143AB /* baseline_lock_black_48pt@2x.png in Resources */,
+				3FA7D13A2179F53600551490 /* GenerateLinkViewController.xib in Resources */,
+				3FA7D140217D01C700551490 /* baseline_lock_white_48pt@3x.png in Resources */,
+				3F09E91021796A6C007143AB /* baseline_account_circle_black_48pt@3x.png in Resources */,
+				3F09E90F21796A6C007143AB /* baseline_account_circle_black_48pt@2x.png in Resources */,
+				3F09E91521796ACC007143AB /* baseline_insert_drive_file_black_48pt.png in Resources */,
+				3F09E91621796ACC007143AB /* baseline_insert_drive_file_black_48pt@2x.png in Resources */,
 				3FCE227B21791621007B070F /* LaunchScreen.storyboard in Resources */,
 				3FCE228621791BCA007B070F /* sharelockIcon.png in Resources */,
+				3F09E90A21796A6C007143AB /* baseline_attach_file_black_48pt@2x.png in Resources */,
 				3FCE228321791768007B070F /* MainViewController.xib in Resources */,
+				3FA7D13E217D01C700551490 /* baseline_lock_white_48pt@2x.png in Resources */,
 				3FCE227821791621007B070F /* Assets.xcassets in Resources */,
+				3F09E90E21796A6C007143AB /* baseline_attach_file_black_48pt@3x.png in Resources */,
 				3FCE228721791BCA007B070F /* appIcon.png in Resources */,
+				3F09E90C21796A6C007143AB /* baseline_lock_black_48pt@3x.png in Resources */,
+				3F09E91421796ACC007143AB /* baseline_insert_drive_file_black_48pt@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11E248DEC35BAFDF09078CC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-sharelock/Pods-sharelock-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/WSTagsField/WSTagsField.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WSTagsField.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sharelock/Pods-sharelock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		16677A399E5BC09DF16E93EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sharelock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3FCE22692179161F007B070F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F09E91D2179788F007143AB /* UINavigationController+InteractivePop.swift in Sources */,
+				3FA7D1342179EAE100551490 /* Secret.swift in Sources */,
+				3FA7D1312179E9FA00551490 /* LinkAPIClient.swift in Sources */,
+				3F09E91A217975C7007143AB /* WhoToShareWithViewController.swift in Sources */,
 				3FCE22732179161F007B070F /* MainViewController.swift in Sources */,
+				3FCE228B2179200D007B070F /* UIView+AnimateTo.swift in Sources */,
+				3FA7D1392179F53600551490 /* GenerateLinkViewController.swift in Sources */,
 				3FCE22712179161F007B070F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,17 +487,20 @@
 		};
 		3FCE228021791621007B070F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85C980C9B68FDC851685ABB3 /* Pods-sharelock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 2U378HJ7FG;
 				INFOPLIST_FILE = sharelock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.auth0.sharelock;
+				PRODUCT_BUNDLE_IDENTIFIER = ar.com.ezequielaceto.ios.apps.sharelock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Sharelock AppStore";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -306,17 +508,20 @@
 		};
 		3FCE228121791621007B070F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45E9A8AA230B75DADF1A94AC /* Pods-sharelock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 2U378HJ7FG;
 				INFOPLIST_FILE = sharelock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.auth0.sharelock;
+				PRODUCT_BUNDLE_IDENTIFIER = ar.com.ezequielaceto.ios.apps.sharelock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Sharelock AppStore";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
