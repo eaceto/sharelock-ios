@@ -8,5 +8,6 @@ target 'sharelock' do
   # Pods for sharelock
   pod 'WSTagsField'
   pod 'Alamofire'
-
+  pod 'Fabric'
+  pod 'Crashlytics'
 end

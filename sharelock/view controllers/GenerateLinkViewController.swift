@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Crashlytics
 
 class GenerateLinkViewController: UIViewController {
 
@@ -28,13 +29,22 @@ class GenerateLinkViewController: UIViewController {
         if let secret = self.secret {
             LinkAPIClient.shared.generateLinkForSecret(secret, { link, error in
                 self.done = true
-                if error != nil {
-                    let a = UIAlertController.init(title: "Sharelock.io", message: "Sorry, there was an error processing your request.", preferredStyle: .alert)
+                if let error = error {
+                    Crashlytics.sharedInstance().recordError(error)
+                    var message = error.localizedDescription
+                    if let err = error as? APIError {
+                        message = err.desc
+                    }
+                    let a = UIAlertController.init(title: "Sharelock", message: message, preferredStyle: .alert)
+                    a.addAction(UIAlertAction.init(title: "Cancel", style: .cancel, handler: { action in
+                        self.navigationController?.popViewController(animated: true)
+                    }))
                     self.present(a, animated: true, completion: nil)
                     return
                 }
                 if let link = link {
                     self.secret?.addLink(link: link)
+                    Answers.logCustomEvent(withName: "Link Created", customAttributes: nil)
                 }
                 self.updateUI()
             })
@@ -46,7 +56,8 @@ class GenerateLinkViewController: UIViewController {
             DispatchQueue.main.async {
                 self.exitButton.isEnabled = true
                 self.encryptingView.isHidden = true
-                if let link = self.secret?.link {
+                self.navigationController?.interactivePopGestureRecognizer?.isEnabled = true
+                if let link = self.secret?.link, !link.isEmpty {
                     self.linkTextView.text = link
                     
                     Secret.current?.clear()

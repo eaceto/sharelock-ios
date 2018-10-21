@@ -8,6 +8,7 @@
 
 import Foundation
 import Alamofire
+import Crashlytics
 
 class LinkAPIClient: NSObject {
     
@@ -29,12 +30,17 @@ class LinkAPIClient: NSObject {
             switch response.result {
             case .success:
                 if let result = response.result.value {
-                    callback("\(self.serverURL)/\(result)", nil)
+                    if let url = URL.init(string: "\(self.serverURL)/\(result)") {
+                        callback(url.absoluteString, nil)
+                        return
+                    }
+                    callback(nil, APIError.init(str: result))
                     return
                 }
-                callback(nil, NSError.init(domain: "LinkAPIClient", code: -1, userInfo: ["response": response]))
+                callback(nil, APIError.init(str: "Sorry, there was an unknown error."))
             case .failure(let error):
-                callback(nil, error)
+                Crashlytics.sharedInstance().recordError(error)
+                callback(nil, APIError.init(str: "Sorry, there was a server error."))
             }
         }
 
