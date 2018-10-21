@@ -11,7 +11,7 @@ If you have found a bug or if you have a feature request, please report them at 
 ## Authors
 
 ### App
-[Ezequiel L. Aceto] (ezequiel.aceto@gmail.com)
+[Ezequiel L. Aceto](ezequiel.aceto@gmail.com)
 
 ### Sharelock API
 [Auth0](auth0.com)
