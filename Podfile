@@ -10,4 +10,5 @@ target 'sharelock' do
   pod 'Alamofire'
   pod 'Fabric'
   pod 'Crashlytics'
+  pod 'PathMenu'
 end
